@@ -1,0 +1,336 @@
+@import "reset.css";
+
+:root{
+  --main-red: #F75544;
+  --main-yellow: #EB9D05;
+  --main-green: #00844B;
+  --main-purple: #70348C;
+  --main-black: #141414;
+  --main-white: #F9F9F9;
+}
+
+@font-face {
+  font-family: "Five-Years-Later";
+  font-weight: regular;
+  src: url(../fonts/Five-Years-Later-Regular-Demo.otf) format('truetype');
+}
+
+@font-face {
+  font-family: "Druk";
+  font-weight: Medium;
+  src: url(../fonts/DrukCy-Medium-Desktop.otf) format('truetype');
+}
+
+@font-face {
+  font-family: "HeadingProUltracomp";
+  font-weight: heavy;
+  src: url(../fonts/HeadingProUltracomp-Heavy.ttf) format('truetype');
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Five-Years-Later";
+  font-size: 2.5vw;
+  text-transform: uppercase;
+
+  position: absolute;
+  bottom: 3%;
+  left: 3%;
+
+  z-index: 999;
+}
+
+h2 {
+  font-family: "HeadingProUltracomp";
+  font-size: 318px;
+  line-height: 76.19%;
+  text-transform: uppercase;
+
+  position: absolute;
+  top: 0;
+
+  color: var(--main-white);
+}
+
+
+a{
+  display: block;
+  height: 100%;
+}
+
+.blocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 14.4% 14.4% 24% 14.4% 14.4% 14.4% 4%;
+  height: 320vh;
+}
+
+.blocks section {
+  position: relative;
+}
+
+
+
+/* секции */
+
+.blocks__section__one {
+  background: var(--main-red);
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+/* вторая */
+
+.blocks__section__two {
+  background: var(--main-purple);
+
+  grid-column: 2/4;
+  grid-row: 1/3;
+}
+
+
+
+/* третья */
+
+.blocks__section__three {
+  object-fit: cover;
+
+  grid-column: 1/2;
+  grid-row: 2/3;
+
+  background: #D2D2D2;
+}
+
+.blocks__section__three img {
+  width: 100%;
+}
+
+
+
+
+/* четвертая */
+
+.blocks__section__four {
+  background: var(--main-yellow);
+
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+
+/* пятая */
+
+.blocks__section__five {
+  background: var(--main-white);
+
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.blocks__section__five img{
+width: 100%;
+  /* object-fit: cover; */
+  overflow: hidden;
+}
+
+
+
+/* шестая */
+
+
+.blocks__section__six {
+  background: var(--main-green);
+
+  grid-column: 3/4;
+  grid-row: 3/4;
+
+  overflow: hidden;
+}
+
+.blocks__section__six img {
+  position: absolute;
+  bottom: 0;
+}
+
+.blocks__section__six div {
+  width: 20vw;
+  height: 20vw;
+
+  position: absolute;
+  right: -20%;
+  top: -10%;
+
+
+  background: var(--main-black);
+  border-radius: 100%;
+}
+
+
+
+/* седьмая */
+
+.blocks__section__seven {
+  background: var(--main-black);
+
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+
+
+/* восьмая */
+
+
+.blocks__section__eight {
+  background: var(--main-white);
+
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+.blocks__section__eight h1 {
+  color: var(--main-white)
+}
+
+.blocks__section__eight div:nth-child(2) {
+  width: 60%;
+  height: 50%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  background: var(--main-purple);
+}
+
+.blocks__section__eight div:nth-child(3){
+  width: 40%;
+  height: 60%;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  background: var(--main-black);
+}
+
+.blocks__section__eight div:nth-child(4){
+  width: 80%;
+  height: 40%;
+
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  background: var(--main-red);
+}
+
+
+
+/* девятая */
+
+
+.blocks__section__nine {
+  background: var(--main-red);
+
+  grid-column: 1/3;
+  grid-row: 4/6;
+  height: 100%;
+  overflow: hidden;
+}
+
+.blocks__section__nine a{
+  color: var(--main-white);
+  text-decoration: none;
+}
+
+
+
+/* десятая */
+
+.blocks__section__ten {
+  background: var(--main-purple);
+
+  grid-column: 1/2;
+  grid-row: 6/7;
+}
+
+
+
+/* одиннадцатая */
+
+.blocks__section__eleven {
+  background: #A7A7A9;
+
+  grid-column: 2/3;
+  grid-row: 6/7;
+  overflow: hidden;
+
+}
+
+.blocks__section__eleven img{
+  width: 100%;
+}
+
+/* двенадцатая */
+
+
+.blocks__section__twelve {
+  background: var(--main-green);
+
+  grid-column: 3/4;
+  grid-row: 6/7;
+
+}
+
+/* футер */
+
+footer {
+  background: var(--main-black);
+
+  grid-column: 1/4;
+  grid-row: 7/8;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+footer a {
+  font-family: "Five-Years-Later";
+  text-transform: uppercase;
+  color: var(--main-white);
+  height: auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // */
