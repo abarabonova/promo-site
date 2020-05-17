@@ -50,7 +50,7 @@ h1 {
 
 h2 {
   font-family: "HeadingProUltracomp";
-  font-size: 318px;
+  /* font-size: 318px; */
   line-height: 76.19%;
   text-transform: uppercase;
 
@@ -69,7 +69,7 @@ a{
 .blocks {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 14.4% 14.4% 24% 14.4% 14.4% 14.4% 4%;
+  grid-template-rows: 12% 12% 22% 19% 19% 16% 2%;
   height: 320vh;
 }
 
@@ -246,6 +246,14 @@ width: 100%;
   overflow: hidden;
 }
 
+
+
+.fluid-text {
+  width: 100%;
+  height: auto;
+}
+
+
 .blocks__section__nine a{
   color: var(--main-white);
   text-decoration: none;
@@ -311,6 +319,287 @@ footer a {
   height: auto;
 
 }
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------- */
+/* универсальные */
+/* ------------------------------------ */
+
+
+
+
+
+.logo {
+  font-family: "Five-Years-Later";
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  text-decoration: none;
+  position: absolute;
+  height: auto;
+  padding: 10px;
+  color: var(--main-white);
+}
+
+.description-middle {
+  font-family: "Five-Years-Later";
+  font-size: 2.5vw;
+  text-transform: uppercase;
+  padding: 10px;
+  width: 100vw;
+
+  position: absolute;
+  text-align: center;
+
+  color: var(--main-white);
+}
+
+.link-left {
+  font-family: "Five-Years-Later";
+  font-size: 2.5vw;
+  text-transform: uppercase;
+
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+  color: var(--main-white);
+
+  height: auto;
+}
+
+.link-right {
+  font-family: "Five-Years-Later";
+  font-size: 2.5vw;
+  text-transform: uppercase;
+
+  padding: 10px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+
+  color: var(--main-white);
+
+  height: auto;
+}
+
+.link-left:hover,
+.link-right:hover,
+.logo:hover {
+  color: var(--main-black);
+}
+
+
+
+
+/* scrollbar */
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--main-purple);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--main-green);
+}
+
+/* ----------------- */
+
+
+
+
+
+
+
+.events__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.events__div span {
+  width: 200vw;
+  height: 25vh;
+  border: 10px;
+  border-bottom: 5px solid #FFFFFF;
+}
+
+.events__div span h4 {
+  font-family: "Druk";
+  font-size: 200px;
+  color: #F9F9F9;
+  text-transform: uppercase;
+}
+
+
+
+
+
+
+
+/* -------------- */
+/* food */
+
+
+.food__main {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 16% 3% 16% 16% 10% 10% 10% 10% 10% 20%;
+  height: 100vh;
+
+  font-family: "Five-Years-Later";
+  text-transform: uppercase;
+  color: var(--main-black);
+}
+
+.food__main__h1_1 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+
+  font-size: 27px;
+  padding-left: 28px;
+}
+
+.food__main__h1_2 {
+  grid-column: 7/9;
+  grid-row: 2/3;
+
+  font-size: 27px;
+  padding-left: 28px;
+}
+
+.food__main__h2_1 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+
+  font-size: 73px;
+  padding-left: 28px;
+}
+
+.food__main__h2_2 {
+  grid-column: 7/9;
+  grid-row: 3/4;
+
+  font-size: 73px;
+  padding-left: 28px;
+}
+
+.food__main__p_1 {
+  grid-column: 1/6;
+  grid-row: 4/5;
+
+  font-size: 24px;
+  padding-left: 28px;
+  text-transform: none;
+}
+
+.food__main__p_2 {
+  grid-column: 7/12;
+  grid-row: 4/5;
+
+  font-size: 24px;
+  padding-left: 28px;
+  text-transform: none;
+}
+
+.food__main__h3_1 {
+  grid-column: 1/3;
+  grid-row: 5/6;
+
+  font-size: 27px;
+  padding-left: 28px;
+  text-transform: uppercase;
+}
+
+.food__main__h3_2 {
+  grid-column: 7/12;
+  grid-row: 5/6;
+
+  font-size: 27px;
+  padding-left: 28px;
+  text-transform: uppercase;
+}
+
+.food__main__menu{
+  grid-column: 3/5;
+  grid-row: 5/7;
+}
+
+.food__main__menu__paragraph{
+  padding-bottom: 30px;
+}
+
+.food__main__h4_1 {
+  font-size: 27px;
+  text-transform: none;
+}
+
+.food__main__h4_2 {
+  font-size: 14px;
+  text-transform: none;
+}
+
+.food__main__h4_2_price {
+  font-size: 14px;
+  text-transform: none;
+  opacity: 0;
+}
+
+/* цена */
+
+.food__main__menu__price {
+  grid-column: 5/6;
+  grid-row: 5/7;
+}
+
+.food__main__menu__price__paragraph {
+  padding-bottom: 30px;
+  font-size: 27px;
+}
+
+
+
+
+
+/* второе */
+.food__main__menu_2{
+  grid-column: 9/12;
+  grid-row: 5/7;
+  padding-bottom: 50px;
+}
+
+
+.food__main__menu__price_2 {
+  grid-column: 12/13;
+  grid-row: 5/7;
+}
+
+.food__main__padding {
+  width: 100px;
+  height: 150px;
+}
+
+
+
+
 
 
 
