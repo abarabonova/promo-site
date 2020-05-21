@@ -343,6 +343,7 @@ footer a {
   text-transform: uppercase;
   text-decoration: none;
   position: absolute;
+  z-index: 999;
   height: auto;
   padding: 10px;
   color: var(--main-white);
@@ -356,6 +357,7 @@ footer a {
   width: 100vw;
 
   position: absolute;
+  z-index: 999;
   text-align: center;
 
   color: var(--main-white);
@@ -368,6 +370,7 @@ footer a {
 
   padding: 10px;
   position: fixed;
+  z-index: 999;
   left: 0;
   bottom: 0;
 
@@ -383,6 +386,7 @@ footer a {
 
   padding: 10px;
   position: fixed;
+  z-index: 999;
   right: 0;
   bottom: 0;
 
@@ -596,6 +600,139 @@ footer a {
   width: 100px;
   height: 150px;
 }
+
+
+
+
+
+
+
+/* статистика */
+/* -------------------------- */
+
+.statistics_heading {
+  font-family: "HeadingProUltracomp";
+  text-transform: uppercase;
+  width: 100%;
+  height: auto;
+  line-height: 76.19%;
+  color: var(--main-black);
+}
+
+
+
+
+
+/* промокод */
+/* ----------------------- */
+.sale img {
+  position: absolute;
+}
+
+
+
+
+
+
+
+
+
+/* vr */
+/* ----------------- */
+
+.vr_video {
+position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%) }
+}
+
+
+/* ----------------------- */
+
+
+
+
+/* мерч */
+/* ----------------- */
+
+.merch__div {
+  display: block;
+}
+
+.merch__div__img {
+  width: 100vw;
+}
+
+
+/* ----------------------- */
+
+
+
+
+
+
+
+/* contacts */
+/* ----------------------- */
+
+.contacts {
+  height: 20vh;
+  width: 100vw;
+  color: var(--main-white);
+
+  position: absolute;
+  top: 9vw;
+
+  font-size: 24px;
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.contacts__adress {
+  grid-column: 3/5;
+  grid-row: 1/2;
+}
+
+.contacts__adress__info {
+  grid-column: 7/12;
+  grid-row: 1/2;
+  padding-bottom: 30px;
+}
+
+.contacts__support {
+  grid-column: 3/5;
+  grid-row: 2/3;
+}
+
+
+.contacts__support__info {
+  grid-column: 7/12;
+  grid-row: 2/3;
+}
+
+.contacts__map {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+
+}
+
+.contacts__map__iframe {
+  width: 98vw;
+  height: 50vh;
+
+}
+
+
+
+
+
 
 
 
