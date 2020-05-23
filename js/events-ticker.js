@@ -40,7 +40,6 @@
 
 
 
-// let ticker = anime.path('path')
 let svgMotion = anime({
   targets: '.events__div__span',
   easing: 'linear',

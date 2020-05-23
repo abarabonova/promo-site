@@ -34,9 +34,21 @@
 }
 #prev-btn {
 	left: 5px;
+  width: 50vw;
+  height: 100vh;
+
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 #next-btn {
 	right: 5px;
+  width: 50vw;
+  height: 100vh;
+
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 #dots-block {
 	z-index: 100;

@@ -12,26 +12,30 @@
   </style>
 </head>
 <body>
-
   <a href="../index.html" class="logo">казино времени<br>лови момент</a>
   <h6 class="description-middle">мерч</h6>
-  <div class="wrapper">
-    <div class="merch__div">
-      <img src="../img/merch/pins.png" alt="" class="merch__div__img">
-      <img src="../img/merch/stickers.png" alt="" class="merch__div__img">
-      <img src="../img/merch/bag.png" alt="" class="merch__div__img">
-    </div>
-    <div class="wrapper__btn">
-      <div class="wrapper__btn-right"></div>
-      <div class="wrapper__btn-left"></div>
-    </div>
 
-  </div>
-
-
-  <a href="virtually.html" class="link-left">виртуальное посещение</a>
-  <a href="contacts.html" class="link-right">контакты</a>
-
-  <script src="../js/sliders.js" charset="utf-8"></script>
+    <section>
+        <div class="slider">
+                <div id="img-container" class="images-container">
+                  <img class="slider-item fade" src="../img/merch/pins.png" alt="">
+                  <img class="slider-item fade" src="../img/merch/bag.png" alt="">
+                  <img class="slider-item fade" src="../img/merch/stickers.png" alt="">
+            </div>
+            <div class="buttons-block">
+                <div id="prev-btn"></div>
+                <div id="next-btn"></div>
+            </div>
+            <div id="dots-block">
+                <button class="dot dot-active"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+                <button class="dot"></button>
+            </div>
+        </div>
+    </section>
+    <a href="virtually.html" class="link-left">виртуальное посещение</a>
+    <a href="contacts.html" class="link-right">контакты</a>
+    <script src="../js/sliders.js"></script>
 </body>
 </html>
