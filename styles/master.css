@@ -102,6 +102,45 @@ a{
   grid-row: 1/3;
 }
 
+.blocks__section__two__shapes {
+  display: grid;
+  grid-template-columns: 38% 25% 37%;
+  grid-template-rows: 35% 13% 30% 22%;
+}
+
+.blocks__section__two__shapes__rect-white {
+  grid-column: 1/3;
+  grid-row: 1/2;
+
+  width: 42%;
+  height: 16%;
+  border-radius: 25px;
+
+  background: var(--main-white);
+}
+
+.blocks__section__two__shapes__circle-black {
+  grid-column: 1/2;
+  grid-row: 2/4;
+
+  width: 20%;
+  height: 20%;
+  border-radius: 100%;
+
+  background: var(--main-black);
+}
+
+.blocks__section__two__shapes__rect-green-big {
+  grid-column: 1/2;
+  grid-row: 4/5;
+
+  width: 20%;
+  height: 11%;
+  border-radius: 25px;
+
+  background: var(--main-green);
+}
+
 
 
 /* третья */
@@ -179,6 +218,7 @@ a{
 .blocks__section__six img {
   position: absolute;
   bottom: 0;
+  height: 70%;
 }
 
 .blocks__section__six div {
@@ -460,6 +500,28 @@ footer a {
   position: absolute;
   bottom: 0;
 }
+
+.game__time {
+  font-family: "Five-Years-Later";
+  text-transform: uppercase;
+  font-size: 2vw;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  padding: 10px;
+
+  color: var(--main-white);
+}
+
+#game__time__number {
+  font-size: 5vw;
+}
+
+
+
+
 
 .game__shapes__ellipse-green__ {
   grid-column: 1/2;
