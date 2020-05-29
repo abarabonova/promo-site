@@ -1,0 +1,67 @@
+@import "master.css";
+.events__div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.events__div__span {
+  width: 500vw;
+  height: 25vh;
+  border: 10px;
+  overflow: hidden;
+  border-bottom: 5px solid var(--main-white);
+}
+
+.events__div__span:hover {
+  background: var(--main-black);
+
+}
+
+.events__div__span h4 {
+  font-family: "Druk";
+  font-size: 30vh;
+  color: var(--main-white);
+  text-transform: uppercase;
+}
+
+.events__div__span__set:hover {
+  color: var(--main-black);
+  -webkit-text-stroke: 2px var(--main-white);
+}
+
+.events__div__span__one-years:hover {
+  color: var(--main-black);
+  -webkit-text-stroke: 2px var(--main-white);
+}
+
+.events__div__span__one-years:hover + img {
+  display: block;
+}
+
+.events__poster-1 {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* // */
