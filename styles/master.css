@@ -806,35 +806,33 @@ footer a {
   display: block;
   animation: saleTranslate 10s ease-in-out infinite;
 }
-/*
-.sale-2 {
-  position: absolute;
-  transform: translateX(-100%);
-} */
 
 .sale p {
   animation: saleTranslate 10s ease-in-out infinite;
+  background-repeat: no-repeat;
+  background-size: 30vw;
+  position: absolute;
+
+}
+
+.sale p:nth-child(1) {
   width: 30vw;
   height: 30vw;
   background-image: url(../img/sale/ellipse-red.svg);
-  background-repeat: no-repeat;
-  position: absolute;
   bottom: 8vw;
   left: 30vw;
 }
 
-.sale p:hover {
+.sale p:nth-child(1):hover {
   background-image: url(../img/sale/hover/ellipse-red-hover.svg);
   transition: .3s;
 }
 
 .sale p:nth-child(2) {
-  animation: saleTranslate 10s ease-in-out infinite;
-  width: 30vw;
+   width: 30vw;
   height: 30vw;
   background-image: url(../img/sale/ellipse-red2.svg);
-  background-repeat: no-repeat;
-  position: absolute;
+
   top: -15vw;
   left: 95vw;
 }
@@ -846,43 +844,74 @@ footer a {
 
 
 .sale p:nth-child(3) {
-  animation: saleTranslate 10s ease-in-out infinite;
-
   width: 30vw;
   height: 30vw;
   background-image: url(../img/sale/poly-green.svg);
-  background-repeat: no-repeat;
 
-  position: absolute;
   bottom: 2vw;
   left: 88vw;
-  transform: rotate(3deg);
 }
 
 .sale p:nth-child(3):hover {
   background-image: url(../img/sale/hover/poly-green-hover.svg);
-  transform: rotate(3deg);
   transition: .3s;
 }
 
 
 .sale p:nth-child(4) {
-  animation: saleTranslate 10s ease-in-out infinite;
-
   width: 30vw;
   height: 30vw;
   background-image: url(../img/sale/rect-green.svg);
-  background-repeat: no-repeat;
 
-  position: absolute;
   bottom: -15vw;
   left: 10vw;
-  transform: rotate(3deg);
 }
 
-.sale p:nth-child(3):hover {
-  background-image: url(../img/sale/hover/poly-green-hover.svg);
-  transform: rotate(3deg);
+.sale p:nth-child(4):hover {
+  background-image: url(../img/sale/hover/rect-green-hover.svg);
+  transition: .3s;
+}
+
+.sale p:nth-child(5) {
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../img/sale/rect-white.svg);
+
+  top: -2vw;
+  right: 10vw;
+}
+
+.sale p:nth-child(5):hover {
+  background-image: url(../img/sale/hover/rect-white-hover.svg);
+  transition: .3s;
+}
+
+.sale p:nth-child(6) {
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../img/sale/triangle-yellow.svg);
+
+  top: 18vw;
+  left: -5vw;
+}
+
+.sale p:nth-child(6):hover {
+  background-image: url(../img/sale/hover/triangle-yellow-hover.svg);
+  transition: .3s;
+}
+
+
+.sale p:nth-child(7) {
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../img/sale/star-purple-2.svg);
+
+  bottom: 0vw;
+  right: -85vw;
+}
+
+.sale p:nth-child(7):hover {
+  background-image: url(../img/sale/hover/star-purple-hover.svg);
   transition: .3s;
 }
 
@@ -892,50 +921,12 @@ footer a {
   left: 5vw;
 }
 
-.triangle-yellow {
-  top: 18vw;
-  left: -5vw;
-}
-
-.triangle-yellow:hover {
-  background: url(../img/sale/hover/triangle-red-hover.svg);
-}
-/*
-.ellipse-red {
-  bottom: 8vw;
-  left: 30vw;
-} */
-/*
-.ellipse-red:hover {
-  background: url(../img/sale/hover/ellipse-red-hover.svg);
-} */
-/*
-.rect-green {
-  bottom: -15vw;
-  left: 10vw;
-} */
 
 .star-yellow {
   bottom: -10vw;
   right: 15vw;
 }
 
-.rect-white {
-  position: absolute;
-  top: -2vw;
-  right: 10vw;
-}
-/*
-.poly-green {
-  bottom: 3vw;
-  right: -18vw;
-  transform: rotate(3deg);
-} */
-/*
-.ellipse-red-2 {
-  top: -15vw;
-  right: -25vw;
-} */
 
 .triangle-yellow-2 {
   top: 7vw;
@@ -945,11 +936,6 @@ footer a {
 .ellipse-white {
   bottom: -13vw;
   right: -50vw;
-}
-
-.star-purple-2 {
-  bottom: 0vw;
-  right: -85vw;
 }
 
 .rect-green-2 {
@@ -970,18 +956,6 @@ footer a {
   }
 
 }
-
-  /* @keyframes rot {
-    from {
-      transform: rotate(0deg)
-                 translate(-10vw)
-                 rotate(0deg);
-    }
-    to {
-    transform: rotate(360deg)
-               translate(-10vw)
-               rotate(-360deg);
-    } */
 
 
 
@@ -1008,6 +982,31 @@ transform: translate(-50%, -50%)
 
 /* мерч */
 /* ----------------- */
+button {
+  font-family: "Five-Years-Later";
+  font-size: 2em;
+  position: absolute;
+  z-index: 9999;
+
+  border: none;
+  border-radius: 51px;
+
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+  background: var(--main-yellow);
+}
+#button-price {
+  bottom: 8vw;
+  left: 40vw;
+}
+
+button:hover {
+  background: var(--main-red);
+  transition-duration: 0.4s;
+}
 
 .slider {
 	display: block;
