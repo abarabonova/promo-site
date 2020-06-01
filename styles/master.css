@@ -812,6 +812,81 @@ footer a {
   transform: translateX(-100%);
 } */
 
+.sale p {
+  animation: saleTranslate 10s ease-in-out infinite;
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../img/sale/ellipse-red.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 8vw;
+  left: 30vw;
+}
+
+.sale p:hover {
+  background-image: url(../img/sale/hover/ellipse-red-hover.svg);
+  transition: .3s;
+}
+
+.sale p:nth-child(2) {
+  animation: saleTranslate 10s ease-in-out infinite;
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../img/sale/ellipse-red2.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  top: -15vw;
+  left: 95vw;
+}
+
+.sale p:nth-child(2):hover {
+  background-image: url(../img/sale/hover/ellipse-red-hover-2.svg);
+  transition: .3s;
+}
+
+
+.sale p:nth-child(3) {
+  animation: saleTranslate 10s ease-in-out infinite;
+
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../img/sale/poly-green.svg);
+  background-repeat: no-repeat;
+
+  position: absolute;
+  bottom: 2vw;
+  left: 88vw;
+  transform: rotate(3deg);
+}
+
+.sale p:nth-child(3):hover {
+  background-image: url(../img/sale/hover/poly-green-hover.svg);
+  transform: rotate(3deg);
+  transition: .3s;
+}
+
+
+.sale p:nth-child(4) {
+  animation: saleTranslate 10s ease-in-out infinite;
+
+  width: 30vw;
+  height: 30vw;
+  background-image: url(../img/sale/rect-green.svg);
+  background-repeat: no-repeat;
+
+  position: absolute;
+  bottom: -15vw;
+  left: 10vw;
+  transform: rotate(3deg);
+}
+
+.sale p:nth-child(3):hover {
+  background-image: url(../img/sale/hover/poly-green-hover.svg);
+  transform: rotate(3deg);
+  transition: .3s;
+}
+
+
 .star-purple {
   top: -10vw;
   left: 5vw;
@@ -825,20 +900,20 @@ footer a {
 .triangle-yellow:hover {
   background: url(../img/sale/hover/triangle-red-hover.svg);
 }
-
+/*
 .ellipse-red {
   bottom: 8vw;
   left: 30vw;
-}
-
+} */
+/*
 .ellipse-red:hover {
   background: url(../img/sale/hover/ellipse-red-hover.svg);
-}
-
+} */
+/*
 .rect-green {
   bottom: -15vw;
   left: 10vw;
-}
+} */
 
 .star-yellow {
   bottom: -10vw;
@@ -850,17 +925,17 @@ footer a {
   top: -2vw;
   right: 10vw;
 }
-
+/*
 .poly-green {
   bottom: 3vw;
   right: -18vw;
   transform: rotate(3deg);
-}
-
+} */
+/*
 .ellipse-red-2 {
   top: -15vw;
   right: -25vw;
-}
+} */
 
 .triangle-yellow-2 {
   top: 7vw;
