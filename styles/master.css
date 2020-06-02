@@ -998,14 +998,20 @@ button {
 
   background: var(--main-yellow);
 }
+
+button:hover {
+  background: var(--main-red);
+  transition-duration: 0.4s;
+}
+
 #button-price {
   bottom: 8vw;
   left: 40vw;
 }
 
-button:hover {
-  background: var(--main-red);
-  transition-duration: 0.4s;
+#button-price-2 {
+  bottom: 8vw;
+  right: 16vw;
 }
 
 .slider {
@@ -1148,9 +1154,60 @@ button:hover {
 
 }
 
+/* стили кнопок для покупки */
+
+.swal-modal {
+  height: 25vw;
+  width: 40vw;
+  border-radius: 5vw;
+  background: var(--main-white)
+}
+
+.swal-title {
+  font-family: "Five-Years-Later";
+  line-height: 95.19%;
+  font-size: 3vw;
+  text-transform: uppercase;
+  padding: 10%;
+  color: var(--main-black)
+}
+
+.swal-button {
+  width: 10vw;;
+  height: 3vw;
+  padding: 0px 19px;
+  border-radius: 100px;
+  background-color: var(--main-white);
+  border: 2px solid var(--main-black);
+  font-size: 2vw;
+  text-transform: uppercase;
+  color: var(--main-black);
+}
+
+.swal-button--confirm{
+  background: var(--main-yellow);
+  border: none;
+}
+
+.swal-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.swal-button-container {
+  margin-right: 10vw;
+}
 
 
+.swal-button:not([disabled]):hover {
+  background-color: var(--main-red);
+}
 
+.swal-button:focus {
+  outline: none;
+  box-shadow: none;
+}
+/* ------------------- */
 
 
 
