@@ -984,7 +984,7 @@ transform: translate(-50%, -50%)
 /* ----------------- */
 button {
   font-family: "Five-Years-Later";
-  font-size: 2em;
+  font-size: 2vw;
   position: absolute;
   z-index: 9999;
 
@@ -1005,12 +1005,12 @@ button:hover {
 }
 
 #button-price {
-  bottom: 8vw;
-  left: 40vw;
+  bottom: 6vw;
+  right: 46vw;
 }
 
 #button-price-2 {
-  bottom: 8vw;
+  bottom: 6vw;
   right: 16vw;
 }
 
@@ -1022,6 +1022,7 @@ button:hover {
 	margin: 0 auto;
 	overflow: hidden;
 }
+
 .images-container {
 	position: absolute;
 	width: auto;
@@ -1032,6 +1033,7 @@ button:hover {
   margin-right: -50%;
   transform: translate(-50%, -50%)
 }
+
 .images-container img {
 	display: block;
 	width: auto;
@@ -1211,7 +1213,39 @@ button:hover {
 
 
 
+/* media for sliders */
+@media (max-width: 900px) {
+  .images-container {
+  	height: 80vw;
+  }
 
+  .merch__button {
+    width: 100vw;
+    position: absolute;
+    bottom: 16vw;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #button-price {
+    right: 60vw;
+  }
+
+  #button-price-2 {
+    right: 10vw;
+  }
+
+  button {
+    font-size: 4vw;
+    position: static;
+    bottom: 6vw;
+  }
+
+
+
+
+
+}
 
 
 
