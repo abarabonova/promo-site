@@ -86,6 +86,7 @@ a{
 
 
 /* секции */
+/* section; */
 
 .blocks__section__one {
   background: var(--main-red);
@@ -728,7 +729,7 @@ footer a {
 }
 
 .events__div__span {
-  width: 500vw;
+  width: 1000vw;
   height: 25vh;
   border: 10px;
   overflow: hidden;
@@ -1240,11 +1241,6 @@ button:hover {
     position: static;
     bottom: 6vw;
   }
-
-
-
-
-
 }
 
 
