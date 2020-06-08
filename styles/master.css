@@ -273,15 +273,15 @@ a{
   overflow: hidden;
 }
 
-/* .blocks__section__six:hover {
+.blocks__section__six:hover {
   background: var(--main-white);
   transition: .2s;
-} */
+}
 
 .blocks__section__six img {
   position: absolute;
   bottom: 0;
-  height: 70%;
+  width: 60%;
 }
 
 .blocks__section__six div {
