@@ -145,7 +145,7 @@ a{
   grid-column: 1/2;
   grid-row: 2/4;
 
-  border-radius: 100%;
+  border-radius: 32em;
 
   background: var(--main-black);
 }
@@ -204,6 +204,10 @@ a{
   transform: translateY(-12%);
 }
 
+.blocks__section__three:hover img {
+  filter: blur(3px);
+}
+
 
 
 
@@ -247,6 +251,11 @@ a{
   transform: translate(-20%);
   overflow: hidden;
 }
+
+.blocks__section__five:hover img{
+  filter: blur(3px);
+}
+
 .blocks__section__five h1 {
   color: var(--main-white);
 }
@@ -299,6 +308,10 @@ a{
   grid-row: 4/5;
 }
 
+.blocks__section__seven:hover {
+  background: var(--main-yellow);
+}
+
 
 
 /* восьмая */
@@ -323,6 +336,11 @@ a{
   left: 0;
   z-index: 4;
   background: var(--main-purple);
+}
+
+.blocks__section__eight:hover div:nth-child(2) {
+  background: var(--main-yellow);
+  transition: .2s;
 }
 
 .blocks__section__eight div:nth-child(3){
@@ -362,6 +380,11 @@ a{
 }
 
 
+.blocks__section__nine:hover {
+  background:  var(--main-green);
+  transition: .2s;
+}
+
 
 .fluid-text {
   width: 100%;
@@ -385,6 +408,11 @@ a{
   grid-row: 6/7;
 }
 
+.blocks__section__ten:hover {
+  background: var(--main-yellow);
+  transition: .2s;
+}
+
 
 
 /* одиннадцатая */
@@ -395,11 +423,14 @@ a{
   grid-column: 2/3;
   grid-row: 6/7;
   overflow: hidden;
-
 }
 
 .blocks__section__eleven img{
   width: 100%;
+}
+
+.blocks__section__eleven:hover img{
+  filter: blur(3px);
 }
 
 /* двенадцатая */
@@ -410,7 +441,11 @@ a{
 
   grid-column: 3/4;
   grid-row: 6/7;
+}
 
+.blocks__section__twelve:hover {
+  background: var(--main-white);
+  transition: .2s;
 }
 
 /* футер */
