@@ -516,6 +516,10 @@ footer a {
   color: var(--main-white);
 }
 
+#game__time {
+  font-size: 5vw;
+}
+
 #game__time__number {
   font-size: 5vw;
 }
@@ -535,12 +539,21 @@ footer a {
   border-radius: 100%;
 }
 
+.game__shapes__ellipse-green.active {
+  background: var(--main-purple);
+}
+
+
 .game__shapes__ellipse-purple {
   grid-column: 3/4;
   grid-row: 5/7;
 
   background: var(--main-purple);
   border-radius: 100%;
+}
+
+.game__shapes__ellipse-purple.active {
+  background: var(--main-yellow);
 }
 
 .game__shapes__oval-yellow {
@@ -551,12 +564,20 @@ footer a {
   border-radius: 5em;
 }
 
+.game__shapes__oval-yellow.active {
+  background: var(--main-red);
+}
+
 .game__shapes__rect-green {
   grid-column: 4/6;
   grid-row: 6/7;
 
   background: var(--main-green);
   border-radius: 3em;
+}
+
+.game__shapes__rect-green.active {
+  background: var(--main-white);
 }
 
 .game__shapes__rect-red {
@@ -567,6 +588,10 @@ footer a {
   border-radius: 3em;
 }
 
+.game__shapes__rect-red.active {
+  background: var(--main-white);
+}
+
 .game__shapes__rect-white {
   grid-column: 3/6;
   grid-row: 2/5;
@@ -575,12 +600,20 @@ footer a {
   border-radius: 3em;
 }
 
+.game__shapes__rect-white.active {
+  background: var(--main-red);
+}
+
 .game__shapes__rect-yellow {
   grid-column: 2/3;
   grid-row: 3/4;
 
   background: var(--main-yellow);
   border-radius: 3em;
+}
+
+.game__shapes__rect-yellow.active {
+  background: var(--main-purple);
 }
 
 
