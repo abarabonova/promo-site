@@ -880,6 +880,7 @@ footer a {
 
 .sale p {
   animation: saleTranslate 10s ease-in-out infinite;
+  transform: translateZ(0);
   background-repeat: no-repeat;
   background-size: 30vw;
   position: absolute;
