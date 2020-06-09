@@ -543,6 +543,7 @@ footer a {
   font-family: "Five-Years-Later";
   font-size: 2.5vw;
   text-transform: uppercase;
+  text-decoration: none;
 
   padding: 10px;
   position: fixed;
@@ -559,6 +560,7 @@ footer a {
   font-family: "Five-Years-Later";
   font-size: 2.5vw;
   text-transform: uppercase;
+  text-decoration: none;
 
   padding: 10px;
   position: fixed;
@@ -952,6 +954,11 @@ footer a {
   line-height: 76.19%;
   color: var(--main-white);
   user-select: none;
+}
+
+.statistics_heading span:hover{
+  color: var(--main-black);
+
 }
 
 
@@ -1353,7 +1360,7 @@ button:hover {
 .swal-button {
   width: 10vw;;
   height: 3vw;
-  padding: 0px 19px;
+  padding: 10%;
   border-radius: 100px;
   background-color: var(--main-white);
   border: 2px solid var(--main-black);
