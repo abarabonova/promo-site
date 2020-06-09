@@ -624,7 +624,7 @@ footer a {
   grid-row: 1/4;
 
   background: var(--main-green);
-  border-radius: 100%;
+  border-radius: 30em;
 }
 
 .game__shapes__ellipse-green.active {
@@ -637,7 +637,7 @@ footer a {
   grid-row: 5/7;
 
   background: var(--main-purple);
-  border-radius: 100%;
+  border-radius: 30em;
 }
 
 .game__shapes__ellipse-purple.active {
@@ -1137,7 +1137,11 @@ transform: translate(-50%, -50%)
 
 /* ----------------------- */
 
-
+/* book */
+/* книга  */
+.images-container {
+  height: 120vh
+}
 
 
 /* мерч */
@@ -1409,6 +1413,17 @@ button:hover {
     position: static;
     bottom: 6vw;
   }
+}
+
+@media (max-width: 1024px) {
+  .book_section {
+    transform: rotate(90deg);
+  }
+
+  .images-container {
+    height: 90vw;
+  }
+
 }
 
 
