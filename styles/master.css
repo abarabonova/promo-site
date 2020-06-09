@@ -48,8 +48,9 @@ h1 {
   text-transform: uppercase;
 
   position: absolute;
-  bottom: 3%;
-  left: 3%;
+  bottom: 0;
+  left: 0;
+  padding: 1vw;
 
   z-index: 999;
 }
@@ -254,6 +255,7 @@ a{
 
 .blocks__section__five:hover img{
   filter: blur(3px);
+  /* transform: scale(0); */
 }
 
 .blocks__section__five h1 {
@@ -465,6 +467,7 @@ footer {
 footer a {
   font-family: "Five-Years-Later";
   text-transform: uppercase;
+  text-decoration: none;
   color: var(--main-white);
   height: auto;
 
@@ -748,7 +751,7 @@ footer a {
   grid-row: 3/4;
 
   font-size: 73px;
-  padding-left: 28px;
+  padding-left: 24px;
 }
 
 .food__main__h2_2 {
@@ -756,7 +759,7 @@ footer a {
   grid-row: 3/4;
 
   font-size: 73px;
-  padding-left: 28px;
+  padding-left: 24px;
 }
 
 .food__main__p_1 {
