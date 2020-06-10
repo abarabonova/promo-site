@@ -51,8 +51,13 @@ h1 {
   bottom: 0;
   left: 0;
   padding: 1vw;
+  opacity: 1;
 
   z-index: 999;
+}
+
+h1:hover {
+  opacity: 0.75;
 }
 
 h2 {
@@ -470,6 +475,10 @@ footer a {
   text-decoration: none;
   color: var(--main-white);
   height: auto;
+}
+
+footer a:hover {
+  filter: brightness(80%);
 
 }
 
