@@ -1,4 +1,3 @@
-// let shape1 = document.getElementsByClassName('game__shapes__ellipse-green')
 let shape1 = document.getElementById('shape-1')
 let shape2 = document.getElementById('shape-2')
 let shape3 = document.getElementById('shape-3')
@@ -7,6 +6,19 @@ let shape5 = document.getElementById('shape-5')
 let shape6 = document.getElementById('shape-6')
 let shape7 = document.getElementById('shape-7')
 let int
+
+
+  let screenOne = document.querySelector('#button-1');
+  screenOne.onclick = function(e) {
+    document.getElementById('screen-1').style.display='none';
+  }
+
+  let screenTwo = document.querySelector('#button-2');
+  screenTwo.onclick = function(e) {
+    document.getElementById('screen-2').style.display='none';
+  }
+
+
 
 
 document.addEventListener("DOMContentLoaded", __main__)
@@ -164,12 +176,6 @@ function __main__() {
         setTimeout(e => console.clear(), 1000)
       }
     })
-
-
-
-
-
-
   }
 }
 
