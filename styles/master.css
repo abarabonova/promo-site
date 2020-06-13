@@ -570,6 +570,7 @@ footer a:hover {
   font-size: 2.5vw;
   text-transform: uppercase;
   text-decoration: none;
+  text-align: right;
 
   padding: 10px;
   position: fixed;
@@ -588,6 +589,7 @@ footer a:hover {
   color: var(--main-black);
 }
 
+/* book книга */
 
 
 
@@ -1047,7 +1049,7 @@ footer a:hover {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%) translateZ(0);
   z-index: 99999;
   transition: .3s;
 }
@@ -1089,6 +1091,7 @@ footer a:hover {
   font-size: 30vh;
   text-transform: uppercase;
   color: var(--main-white);
+  transform: translateY(-2.5%);
 }
 
 .events__div__span__set:hover {
@@ -1375,7 +1378,7 @@ footer a:hover {
 /* book */
 /* книга  */
 .images-container {
-  height: 120vh
+  height: 120vh;
 }
 
 
@@ -1637,7 +1640,22 @@ button:hover {
     bottom: 16vw;
     display: flex;
     justify-content: space-around;
+    padding: 0%;
   }
+
+  .swal-button-container {
+    margin-right: 0;
+   }
+
+   .swal-footer {
+     padding: 0 13px;
+     margin-top: -4%;
+   }
+
+   .swal-button {
+      width: 12vw;
+      height: 5vw;
+   }
 
   #button-price {
     right: 60vw;
@@ -1783,6 +1801,11 @@ button:hover {
 
 
 @media (max-width:768px) {
+
+  .blocks__section__three img {
+    transform: translateY(0);
+  }
+
 
   /* основные */
   .logo,
@@ -2102,6 +2125,10 @@ button:hover {
   .description-middle {
     font-size: 4.4vw;
   }
+  .link-right,
+  .link-left {
+    width: 50vw;
+  }
 
   .description-middle {
     display: none;
@@ -2113,6 +2140,48 @@ button:hover {
     top: 9vh;
     font-size: 2.8vh;
   }
+
+  /* merch */
+  /* мерч */
+
+  .swal-modal {
+    height: 45vw;
+    width: 70vw;
+  }
+
+  .swal-title {
+    font-size: 6vw;
+  }
+
+  .swal-button {
+    width: 24vw;
+    height: 10vw;
+    font-size: 4vw;
+  }
+
+  .swal-title:first-child {
+    margin-top: 0;
+  }
+
+  .swal-title:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  .events__div__span h4 {
+    transform: translateY(-1.5%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
