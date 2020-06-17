@@ -589,7 +589,7 @@ footer a:hover {
   color: var(--main-black);
 }
 
-/* book книга */
+
 
 
 
@@ -1378,7 +1378,7 @@ footer a:hover {
 /* book */
 /* книга  */
 .images-container {
-  height: 120vh;
+  height: 120vh
 }
 
 
@@ -1682,13 +1682,18 @@ button:hover {
     transform: rotate(90deg);
   }
 
+  .book_section div:nth-child(1){
+    width: 100vh;
+    height: 100vw;
+  }
+
   .images-container {
     height: 90vw;
   }
 
   /* еда */
   .food__main {
-    grid-template-rows: 8% 3% 10% 9% 34% 5% 3% 10% 12% 25%;
+    grid-template-rows: 8% 3% 7% 9% 34% 5% 3% 7% 12% 25%;
   }
 
   .food__main__h1_1,
@@ -1743,6 +1748,10 @@ button:hover {
   .food__main__menu h6,
   .food__main__menu_2 p {
     font-size: 4vw;
+  }
+
+  .food__main__p_2 {
+    padding: 28px;
   }
 
   .food__main__h3_2 {
@@ -1801,11 +1810,9 @@ button:hover {
 
 
 @media (max-width:768px) {
-
   .blocks__section__three img {
     transform: translateY(0);
   }
-
 
   /* основные */
   .logo,
@@ -1902,8 +1909,8 @@ button:hover {
 
     font-family: sans-serif, "Helvetica";
     text-align: center;
-    width: 40vw;
-    font-size: 3vw;
+    width: 52vw;
+    font-size: 4vw;
   }
 
   .game__screen__1__circle {
@@ -1947,14 +1954,14 @@ button:hover {
 
   .game__screen__1__button,
   .game__screen__2__button {
-    width: 70vw;
-    height: 20vh;
+    width: 61vw;
+    height: 13vh;
     border-radius: 5em;
 
     background: var(--main-red);
 
     position: absolute;
-    bottom: 5vh;
+    bottom: 10vh;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -2169,9 +2176,56 @@ button:hover {
 
   .events__div__span h4 {
     transform: translateY(-1.5%);
+  }
+
+  /* sale промокод */
+.sale p {
+  width: 50vw;
+  height: 50vw;
+  background-size: 50vw;
 }
 
+.sale p:nth-child(1) {
+  left: 12vw;
+  bottom: 34vh;
+}
 
+.sale p:nth-child(2) {
+  top: -15vw;
+  left: 106vw;
+}
+
+.sale p:nth-child(3) {
+  left: 36vh;
+  bottom: 10vh;
+}
+
+.sale p:nth-child(5) {
+  right: -10vw;
+  top: 29vw;
+}
+
+.sale p:nth-child(7) {
+  bottom: 12vh;
+}
+
+.sale p:nth-child(8) {
+  bottom: -43vw;
+  right: -50vw;
+}
+
+.sale p:nth-child(10) {
+  bottom: -33vw;
+}
+
+.sale p:nth-child(11) {
+  top: 64vw;
+  right: -55vw;
+}
+
+.sale p:nth-child(12) {
+  top: 30vw;
+}
 
 
 

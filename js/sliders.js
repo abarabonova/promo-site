@@ -1,34 +1,3 @@
-// let slides = document.getElementsByClassName('merch__div__img')
-// let prevBtn = document.getElementsByClassName('wrapper__btn-left')
-// let nextBtn = document.getElementsByClassName('wrapper__btn-right')
-// let slideIndex = 1
-//
-// showSlides(slideIndex);
-//
-// function showSlides(n) {
-//   if (n < 1) {
-//     slideIndex = slides.length
-//   } else if (n > slides.length) {
-//     slideIndex = 1
-//   }
-//
-//   for (let i = 0; i < slides.length; i++) {
-//     slides[i].style.display = 'none'
-//   }
-// }
-//
-// function plusSlides(n) {
-//   showSlides(slideIndex += n);
-// }
-//
-// prevBtn.onclick = function() {
-//   plusSlides(-1)
-// }
-//
-// nextBtn.onclick = function() {
-//   plusSlides(+1)
-// }
-
 let dots = document.getElementsByClassName('dot'),
     dotsArea = document.getElementById('dots-block'),
     slides = document.getElementsByClassName('slider-item'),

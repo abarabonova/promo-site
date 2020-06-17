@@ -12,7 +12,7 @@ buttonPrice.addEventListener('click', function() {
 .then((val) => {
   if (val) {
     swal({
-      title: "время спишется с вашего счета"
+      title: "время спишется со счета"
     })
   }
 })
