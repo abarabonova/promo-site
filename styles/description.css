@@ -39,12 +39,12 @@ header h1 {
 
 @media (max-width: 1000px) {
   .header__p {
-    font-size: 2.5vw;
-    top: 12vh;
+    display: none;
   }
 
   .header__div {
     left: 10vw;
+    top: 10vh;
   }
 
   .header__div__p {

@@ -626,7 +626,7 @@ footer a:hover {
 .game__shapes {
   display: grid;
   grid-template-columns: 22% 7% 20% 5% 19% 27%;
-  grid-template-rows: 19% 8% 16% 13% 27% 18%;
+  grid-template-rows: 19% 8% 16% 13% 27% 17%;
   width: 100vw;
   height: 80vh;
   position: absolute;
@@ -721,6 +721,23 @@ footer a:hover {
 
 .game__shapes__rect-yellow.active {
   background: var(--main-purple);
+}
+
+.game__description {
+  position: absolute;
+  top: 10vh;
+  left: 30vw;
+
+  display: flex;
+}
+
+.game__description p {
+  font-family: sans-serif, "Helvetica", "Arial";
+  font-size: 1.4vw;
+  width: 15vw;
+  padding-right: 7vw;
+
+  color: var(--main-white);
 }
 
 
@@ -1630,6 +1647,11 @@ button:hover {
 
 /* media for sliders */
 @media (max-width: 900px) {
+  .game__description p {
+    font-size: 1.8vw;
+    width: 22vw;
+  }
+
   .images-container {
   	height: 80vw;
   }
@@ -1743,6 +1765,7 @@ button:hover {
 
   .food__main__menu p:nth-child(2n) {
     font-size: 2vw;
+    padding-bottom: 1.7vw;
   }
 
   .food__main__menu h6,
@@ -1810,6 +1833,7 @@ button:hover {
 
 
 @media (max-width:768px) {
+
   .blocks__section__three img {
     transform: translateY(0);
   }
@@ -1882,6 +1906,9 @@ button:hover {
 
   /* игра
   game */
+  .game__description {
+    display: none;
+  }
 
   .game__screen__1,
   .game__screen__2 {
@@ -2227,11 +2254,25 @@ button:hover {
   top: 30vw;
 }
 
+.contacts__adress {
+  grid-column: 1/5;
+  grid-row: 1/2;
+  padding: 10px;
+}
 
+.contacts__support {
+  grid-column: 1/5;
+  grid-row: 2/3;
+  padding: 10px;
+}
 
+.contacts__adress__info {
+  grid-column: 6/12;
+}
 
-
-
+.contacts__support__info {
+  grid-column: 6/12;
+}
 
 
 
