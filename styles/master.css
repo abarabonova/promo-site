@@ -1181,15 +1181,15 @@ footer a:hover {
 /* промокод */
 /* ----------------------- */
 
-.sale img:not(rect-white) {
+/* .sale img:not(rect-white) {
   position: absolute;
   width: 30vw;
   height: 30vw;
   display: block;
   animation: saleTranslate 10s ease-in-out infinite;
-}
+} */
 
-.sale p {
+.sale div {
   animation: saleTranslate 10s ease-in-out infinite;
   transform: translateZ(0);
   background-repeat: no-repeat;
@@ -1201,158 +1201,144 @@ footer a:hover {
 
 }
 
-.sale p:nth-child(1) {
-  /* width: 30vw;
-  height: 30vw; */
+.sale div:nth-child(1) {
   background-image: url(../img/sale/ellipse-red.svg);
   bottom: 8vw;
   left: 30vw;
 }
 
-.sale p:nth-child(1):hover {
+.sale div:nth-child(1):hover {
   background-image: url(../img/sale/hover/ellipse-red-hover.svg);
   transition: .3s;
 }
 
-.sale p:nth-child(2) {
-   /* width: 30vw;
-  height: 30vw; */
+.sale div:nth-child(2) {
   background-image: url(../img/sale/ellipse-red2.svg);
 
   top: -15vw;
   left: 95vw;
 }
 
-.sale p:nth-child(2):hover {
+.sale div:nth-child(2):hover {
   background-image: url(../img/sale/hover/ellipse-red-hover-2.svg);
   transition: .3s;
 }
 
 
-.sale p:nth-child(3) {
-  /* width: 30vw;
-  height: 30vw; */
+.sale div:nth-child(3) {
   background-image: url(../img/sale/poly-green.svg);
 
   bottom: 2vw;
   left: 88vw;
 }
 
-.sale p:nth-child(3):hover {
+.sale div:nth-child(3):hover {
   background-image: url(../img/sale/hover/poly-green-hover.svg);
   transition: .3s;
 }
 
 
-.sale p:nth-child(4) {
-  /* width: 30vw;
-  height: 30vw; */
+.sale div:nth-child(4) {
   background-image: url(../img/sale/rect-green.svg);
 
   bottom: -15vw;
   left: 10vw;
 }
 
-.sale p:nth-child(4):hover {
+.sale div:nth-child(4):hover {
   background-image: url(../img/sale/hover/rect-green-hover.svg);
   transition: .3s;
 }
 
-.sale p:nth-child(5) {
-  /* width: 30vw;
-  height: 30vw; */
+.sale div:nth-child(5) {
   background-image: url(../img/sale/rect-white.svg);
 
   top: -2vw;
   right: 10vw;
 }
 
-.sale p:nth-child(5):hover {
+.sale div:nth-child(5):hover {
   background-image: url(../img/sale/hover/rect-white-hover.svg);
   transition: .3s;
 }
 
-.sale p:nth-child(6) {
-  /* width: 30vw;
-  height: 30vw; */
+.sale div:nth-child(6) {
   background-image: url(../img/sale/triangle-yellow.svg);
 
   top: 18vw;
   left: -5vw;
 }
 
-.sale p:nth-child(6):hover {
+.sale div:nth-child(6):hover {
   background-image: url(../img/sale/hover/triangle-yellow-hover.svg);
   transition: .3s;
 }
 
 
-.sale p:nth-child(7) {
-  /* width: 30vw;
-  height: 30vw; */
+.sale div:nth-child(7) {
   background-image: url(../img/sale/star-purple-2.svg);
 
   bottom: 0vw;
   right: -85vw;
 }
 
-.sale p:nth-child(7):hover {
+.sale div:nth-child(7):hover {
   background-image: url(../img/sale/hover/star-purple-hover.svg);
   transition: .3s;
 }
 
-.sale p:nth-child(8) {
+.sale div:nth-child(8) {
   background-image: url(../img/sale/ellipse-white.svg);
-  bottom: -13vw;
+  bottom: -18vw;
   right: -50vw;
 }
 
-.sale p:nth-child(8):hover {
+.sale div:nth-child(8):hover {
   background-image: url(../img/sale/hover/ellipse-white-hover.svg);
   transition: .3s;
 }
 
-.sale p:nth-child(9) {
+.sale div:nth-child(9) {
   background-image: url(../img/sale/star-purple.svg);
   top: -10vw;
   left: 5vw;
 }
 
-.sale p:nth-child(9):hover {
+.sale div:nth-child(9):hover {
   background-image: url(../img/sale/hover/star-purple-maon-hover.svg);
   transition: .3s;
 }
 
-.sale p:nth-child(10) {
+.sale div:nth-child(10) {
   background-image: url(../img/sale/star-yellow.svg);
   bottom: -10vw;
   right: 15vw;
 }
 
-.sale p:nth-child(10):hover {
+.sale div:nth-child(10):hover {
   background-image: url(../img/sale/hover/star-yellow-hover.svg);
   transition: .3s;
 }
 
 
-.sale p:nth-child(11) {
+.sale div:nth-child(11) {
   background-image: url(../img/sale/triangle-yellow-2.svg);
-  top: 7vw;
-  right: -55vw;
+  top: 8vw;
+  right: -50vw;
 }
 
-.sale p:nth-child(11):hover {
-  /* background-image: url(../img/sale/hover/triangle-yellow-2-hover.svg); */
+.sale div:nth-child(11):hover {
+  background-image: url(../img/sale/hover/triangle-yellow-2-hover.svg);
   transition: .3s;
 }
 
-.sale p:nth-child(12) {
+.sale div:nth-child(12) {
   background-image: url(../img/sale/rect-green-2.svg);
   top: -10vw;
   right: -70vw;
 }
 
-.sale p:nth-child(12):hover {
+.sale div:nth-child(12):hover {
   background-image: url(../img/sale/hover/rect-green-2-hover.svg);
   transition: .3s;
 }
@@ -1795,7 +1781,7 @@ button:hover {
   }
 
   /* промокод */
-  .sale p {
+  .sale div {
     width: 35vw;
     height: 36vw;
     background-size: 30vw;
@@ -1804,23 +1790,23 @@ button:hover {
 }
 
 @media (max-width: 1200px) {
-  .sale p:nth-child(1) {
+  .sale div:nth-child(1) {
     bottom: 16vw;
   }
 
-  .sale p:nth-child(6) {
+  .sale div:nth-child(6) {
     top: 28vw;
   }
 
-  .sale p:nth-child(3) {
+  .sale div:nth-child(3) {
     bottom: 12vw;
   }
 
-  .sale p:nth-child(7) {
+  .sale div:nth-child(7) {
     bottom: 5vw;
   }
 
-  .sale p:nth-child(5) {
+  .sale div:nth-child(5) {
     top: 5vw;
   }
 
@@ -1846,59 +1832,57 @@ button:hover {
     font-size: 3vw;
   }
 
-  .sale p {
+  .sale div {
     width: 40vw;
     height: 40vw;
     background-size: 40vw;
   }
 
-  .sale p:nth-child(1) {
+  .sale div:nth-child(1) {
     bottom: 29vh;
-    /* background-size: 40vw; */
   }
 
-  .sale p:nth-child(2) {
-    /* width: 40vw;
-    height: 40vw; */
-  }
-
-  .sale p:nth-child(3) {
+  .sale div:nth-child(3) {
     left: 65vh;
     bottom: 10vh;
   }
 
-  .sale p:nth-child(4) {
+  .sale div:nth-child(4) {
     bottom: 3vh;
     left: -6vw;
   }
 
-  .sale p:nth-child(5) {
+  .sale div:nth-child(5) {
     right: -10vw;
     top: 26vw;
   }
 
-  .sale p:nth-child(6) {
+  .sale div:nth-child(6) {
     top: 9vw;
   }
 
-  .sale p:nth-child(7) {
-    bottom: 25vh;
+  .sale div:nth-child(7) {
+    bottom: 19vh;
   }
 
-  .sale p:nth-child(8) {
+  .sale div:nth-child(8) {
     right: -67vw;
   }
 
-  .sale p:nth-child(9) {
+  .sale div:nth-child(9) {
     top: -23vw;
     left: 49vw;
   }
 
-  .sale p:nth-child(10) {
+  .sale div:nth-child(10) {
     bottom: -23vw;
   }
 
-  .sale p:nth-child(12) {
+  .sale div:nth-child(11) {
+    top: 31vw;
+  }
+
+  .sale div:nth-child(12) {
     right: -87vw;
   }
 
@@ -2203,54 +2187,55 @@ button:hover {
 
   .events__div__span h4 {
     transform: translateY(-1.5%);
+    transform: translateZ(0);
   }
 
   /* sale промокод */
-.sale p {
+.sale div {
   width: 50vw;
   height: 50vw;
   background-size: 50vw;
 }
 
-.sale p:nth-child(1) {
+.sale div:nth-child(1) {
   left: 12vw;
   bottom: 34vh;
 }
 
-.sale p:nth-child(2) {
+.sale div:nth-child(2) {
   top: -15vw;
   left: 106vw;
 }
 
-.sale p:nth-child(3) {
+.sale div:nth-child(3) {
   left: 36vh;
   bottom: 10vh;
 }
 
-.sale p:nth-child(5) {
+.sale div:nth-child(5) {
   right: -10vw;
   top: 29vw;
 }
 
-.sale p:nth-child(7) {
+.sale div:nth-child(7) {
   bottom: 12vh;
 }
 
-.sale p:nth-child(8) {
+.sale div:nth-child(8) {
   bottom: -43vw;
   right: -50vw;
 }
 
-.sale p:nth-child(10) {
+.sale div:nth-child(10) {
   bottom: -33vw;
 }
 
-.sale p:nth-child(11) {
+.sale div:nth-child(11) {
   top: 64vw;
   right: -55vw;
 }
 
-.sale p:nth-child(12) {
+.sale div:nth-child(12) {
   top: 30vw;
 }
 
