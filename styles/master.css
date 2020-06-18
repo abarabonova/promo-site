@@ -1078,6 +1078,8 @@ footer a:hover {
   flex-direction: column;
   justify-content: flex-start;
   height: 100vh;
+  overflow:
+  
 }
 
 .events__div__span {
@@ -1108,7 +1110,7 @@ footer a:hover {
   font-size: 30vh;
   text-transform: uppercase;
   color: var(--main-white);
-  transform: translateY(-2.5%);
+  transform: translateY(-2.5%) translateZ(0);
 }
 
 .events__div__span__set:hover {
@@ -1699,6 +1701,10 @@ button:hover {
     height: 90vw;
   }
 
+  .events__div__span h4 {
+    transform: translateY(-0.5%) translateZ(0);
+  }
+
   /* еда */
   .food__main {
     grid-template-rows: 8% 3% 7% 9% 34% 5% 3% 7% 12% 25%;
@@ -2186,8 +2192,7 @@ button:hover {
   }
 
   .events__div__span h4 {
-    transform: translateY(-1.5%);
-    transform: translateZ(0);
+    transform: translateY(-0.8%) translateZ(0)
   }
 
   /* sale промокод */
