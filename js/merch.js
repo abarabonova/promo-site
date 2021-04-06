@@ -5,8 +5,8 @@ buttonPrice.addEventListener('click', function() {
   swal({
   title: "совершить покупку",
   buttons: {
-    cancel: "нет",
-    confirm:"да"
+    cancel: "Отмена",
+    confirm:"Купить"
   }
 })
 .then((val) => {
@@ -22,8 +22,8 @@ buttonPriceTwo.addEventListener('click', function() {
   swal({
   title: "совершить покупку",
   buttons: {
-    cancel: "нет",
-    confirm:"да"
+    cancel: "Отмена",
+    confirm:"Купить"
   }
 })
 .then((val) => {
